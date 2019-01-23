@@ -6,7 +6,7 @@
 #    By: spliesei <spliesei@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/01/21 21:10:05 by spliesei          #+#    #+#              #
-#    Updated: 2019/01/21 21:12:14 by spliesei         ###   ########.fr        #
+#    Updated: 2019/01/22 17:25:27 by spliesei         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,8 +14,8 @@
 NAME			:= phonebook
 
 # Sources, objects and headers
-SRCS			:=
-HDRS			:=
+SRCS			:= contact.class.cpp main.cpp
+HDRS			:= contact.class.hpp
 OBJS			:= $(SRCS:.cpp=.o)
 
 
