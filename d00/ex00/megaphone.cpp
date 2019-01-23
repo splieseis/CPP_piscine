@@ -25,7 +25,7 @@ void megaphone(int argc, char **str)
     j = 0;
     while (str[i][j])
       {
-        std::cout << std::toupper(str[i][j]);
+        std::cout << (char)std::toupper(str[i][j]);
         j++;
       }
     i++;
